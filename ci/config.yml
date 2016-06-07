@@ -3,7 +3,7 @@ global:
   owner: quickstart@amazon.com
   marketplace-ami: false
   reporting: true
-  cis3bucket:  s3://quickstart-ci-bucket
+  cis3bucket: s3://quickstart-ci-bucket
   prod-s3-path: s3://quickstart-reference/enterprise-accelerator/msservers
   regions:
     - ap-northeast-1
