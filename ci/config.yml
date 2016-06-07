@@ -1,4 +1,5 @@
 global:
+  qsname: quickstart-enterprise-accelerator-msservers
   owner: quickstart@amazon.com
   marketplace-ami: false
   reporting: true
