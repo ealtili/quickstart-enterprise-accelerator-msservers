@@ -29,6 +29,20 @@
                         "ADServer2InstanceType",
                         "ADServer2NetBIOSName",
                         "ADServer2PrivateIP",
+                        "EdgeInstanceType",
+                        "EXCHInstanceType",
+                        "EXCH1PrivateIp",
+                        "EXCH1PrivateIp2",
+                        "EXCH2PrivateIp",
+                        "EXCH2PrivateIp2",
+                        "LyncFEInstanceType",
+                        "FE1PrivateIp",
+                        "FE2PrivateIp",
+                        "LyncEdgeInstanceType",
+                        "LE1PrivateIp",
+                        "LE1PublicIp",
+                        "LE2PrivateIp",
+                        "LE2PublicIp",
                         "WSFCNode1InstanceType",
                         "WSFCNode1NetBIOSName",
                         "WSFCNode1PrivateIP1",
@@ -84,16 +98,8 @@
                         "default": "Microsoft Lync Configuration"
                     },
                     "Parameters": [
-                        "LE1PublicIp",
-                        "LE2PublicIp",
-                        "LE1PrivateIp",
-                        "LE2PrivateIp",
-                        "FE1PrivateIp",
-                        "FE2PrivateIp",
                         "LyncISOImageURI",
-                        "LyncFEInstanceType",
-                        "IncludeLyncEdge",
-                        "LyncEdgeInstanceType"
+                        "IncludeLyncEdge"
                     ]
                 },
                 {
@@ -101,13 +107,7 @@
                         "default": "Microsoft Exchange Configuration"
                     },
                     "Parameters": [
-                        "EXCHInstanceType",
-                        "EXCH1PrivateIp",
-                        "EXCH1PrivateIp2",
-                        "EXCH2PrivateIp",
-                        "EXCH2PrivateIp2",
-                        "IncludeEdge",
-                        "EdgeInstanceType"
+                        "IncludeEdge"
                     ]
                 }
             ],
@@ -145,14 +145,65 @@
                 "ELBConfiguration": {
                     "default": "ELB Configuration"
                 },
+                "IncludeEdge": {
+                    "default": "Include Exchange Edge Transport Servers"
+                },
+                "IncludeLyncEdge": {
+                    "default": "Include Lync Edge Servers"
+                },
                 "IncludeOfficeOnlineServer": {
                     "default": "Include Office Online Servers"
                 },
                 "KeyPairName": {
                     "default": "Key Pair Name"
                 },
+                "EdgeInstanceType": {
+                    "default": "Exchange Edge Transport Server Instance Type"
+                },
+                "EXCHInstanceType": {
+                    "default": "Exchange Multi Role Server Instance Type"
+                },
+                "EXCH1PrivateIp": {
+                    "default": "Exchange Server 1 Private IP Address 1"
+                },
+                "EXCH1PrivateIp2": {
+                    "default": "Exchange Server 1 Private IP Address 2"
+                },
+                "EXCH2PrivateIp": {
+                    "default": "Exchange Server 2 Private IP Address 1"
+                },
+                "EXCH2PrivateIp2": {
+                    "default": "Exchange Server 2 Private IP Address 2"
+                },
+                "FE1PrivateIp": {
+                    "default": "Lync Front End Server 1 Private IP Address"
+                },
+                "FE2PrivateIp": {
+                    "default": "Lync Front End Server 2 Private IP Address"
+                },
+                "LE1PrivateIp": {
+                    "default": "Lync Edge Server 1 Private IP Address"
+                },
+                "LE1PublicIp": {
+                    "default": "Lync Edge Server 1 Public IP Address"
+                },
+                "LE2PrivateIp": {
+                    "default": "Lync Edge Server 2 Private IP Address"
+                },
+                "LE2PublicIp": {
+                    "default": "Lync Edge Server 1 Public IP Address"
+                },
+                "LyncEdgeInstanceType": {
+                    "default": "Lync Edge Server Instance Type"
+                },
+                "LyncFEInstanceType": {
+                    "default": "Lync Front End Server Instance Type"
+                },
                 "OOSInstanceType": {
                     "default": "Office Online Server Instance Type"
+                },
+                "LyncISOImageURI": {
+                    "default": "Installation Media ISO Image File URI"
                 },
                 "PrivateSubnet1CIDR": {
                     "default": "Private Subnet 1 CIDR"
