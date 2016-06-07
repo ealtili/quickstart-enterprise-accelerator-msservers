@@ -50,8 +50,58 @@
         "UsePreviousValue": false
     },
     {
+        "ParameterKey": "EdgeInstanceType",
+        "ParameterValue": "m3.large",
+        "UsePreviousValue": false
+    },
+    {
         "ParameterKey": "ELBConfiguration",
         "ParameterValue": "external",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "EXCH1PrivateIp",
+        "ParameterValue": "10.0.0.150",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "EXCH1PrivateIp2",
+        "ParameterValue": "10.0.0.151",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "EXCH2PrivateIp",
+        "ParameterValue": "10.0.64.150",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "EXCH2PrivateIp2",
+        "ParameterValue": "10.0.64.151",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "EXCHInstanceType",
+        "ParameterValue": "r3.xlarge",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "FE1PrivateIp",
+        "ParameterValue": "10.0.0.160",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "FE2PrivateIp",
+        "ParameterValue": "10.0.64.160",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "IncludeEdge",
+        "ParameterValue": false,
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "IncludeLyncEdge",
+        "ParameterValue": false,
         "UsePreviousValue": false
     },
     {
@@ -62,6 +112,41 @@
     {
         "ParameterKey": "KeyPairName",
         "ParameterValue": "cikey",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LE1PrivateIp",
+        "ParameterValue": "10.0.0.161",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LE1PublicIp",
+        "ParameterValue": "10.0.32.161",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LE2PrivateIp",
+        "ParameterValue": "10.0.64.161",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LE2PublicIp",
+        "ParameterValue": "10.0.96.161",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LyncEdgeInstanceType",
+        "ParameterValue": "m4.xlarge",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LyncFEInstanceType",
+        "ParameterValue": "m4.2xlarge",
+        "UsePreviousValue": false
+    },
+    {
+        "ParameterKey": "LyncISOImageURI",
+        "ParameterValue": "s3://quickstart-ci-media/microsoft/lync/2013/LS-E-8308.0-enUS.iso",
         "UsePreviousValue": false
     },
     {
