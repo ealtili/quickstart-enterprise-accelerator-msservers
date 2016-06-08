@@ -682,7 +682,8 @@
             "Type": "String",
             "Default": "m4.2xlarge",
             "AllowedValues": [
-                "m4.xlarge",
+                "m4.large",
+				"m4.xlarge",
 				"m4.2xlarge"
             ]
         },
