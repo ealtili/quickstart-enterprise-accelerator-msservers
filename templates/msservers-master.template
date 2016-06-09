@@ -682,7 +682,7 @@
             "Type": "String",
             "Default": "m4.2xlarge",
             "AllowedValues": [
-				          "m4.2xlarge"
+                "m4.2xlarge"
             ]
         },
         "LyncISOImageURI": {
