@@ -1,6 +1,6 @@
 {
     "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": "Enterprise Accelerator for Microsoft Servers (EAMS) is a QuickStart that provides an integrated deployment of Active Directory, Exchange, SharePoint, Lync, and SQL Server in the same VPC through a CFN template that calls the individual Microsoft server QuickStarts. **WARNING** This template creates Amazon EC2 Windows instance and related resources. You will be billed for the AWS resources used if you create a stack from this template.",
+    "Description": "QS(0030) - Enterprise Accelerator for Microsoft Servers (EAMS) is a QuickStart that provides an integrated deployment of Active Directory, Exchange, SharePoint, Lync, and SQL Server in the same VPC through a CFN template that calls the individual Microsoft server QuickStarts. **WARNING** This template creates Amazon EC2 Windows instance and related resources. You will be billed for the AWS resources used if you create a stack from this template.",
     "Metadata": {
         "AWS::CloudFormation::Interface": {
             "ParameterGroups": [
