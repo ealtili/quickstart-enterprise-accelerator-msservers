@@ -25,7 +25,7 @@
     },
     {
         "ParameterKey": "DomainAdminPassword",
-        "ParameterValue": "Password123"
+        "ParameterValue": "$[alfred_genpass_32]"
     },
     {
         "ParameterKey": "DomainAdminUser",
@@ -145,7 +145,7 @@
     },
     {
         "ParameterKey": "RestoreModePassword",
-        "ParameterValue": "Password123"
+        "ParameterValue": "$[alfred_genpass_32]"
     },
     {
         "ParameterKey": "SPFarmAccount",
@@ -153,7 +153,7 @@
     },
     {
         "ParameterKey": "SPFarmAccountPassword",
-        "ParameterValue": "Password123"
+        "ParameterValue": "$[alfred_genpass_32]"
     },
     {
         "ParameterKey": "SPInstanceType",
@@ -181,7 +181,7 @@
     },
     {
         "ParameterKey": "SQLServiceAccountPassword",
-        "ParameterValue": "Password123"
+        "ParameterValue": "$[alfred_genpass_32]"
     },
     {
         "ParameterKey": "VPCCIDR",
