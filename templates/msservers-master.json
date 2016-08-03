@@ -187,6 +187,9 @@
         "ParameterKey": "VPCCIDR",
         "ParameterValue": "10.0.0.0/16"
     },
+    {   "ParameterKey": "WAPADFSInstanceType",
+        "ParameterValue": "c4.2xlarge"
+    },
     {
         "ParameterKey": "WSFCNode1InstanceType",
         "ParameterValue": "r3.2xlarge"
@@ -226,8 +229,5 @@
     {
         "ParameterKey": "WSFCNode2PrivateIP3",
         "ParameterValue": "10.0.64.102"
-    },
-    {   "ParameterKey": "WAPADFSInstanceType",
-        "ParameterValue": "c4.2xlarge"
-    }    
+    }
 ]
