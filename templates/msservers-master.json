@@ -121,7 +121,7 @@
     },
     {
         "ParameterKey": "OOSInstanceType",
-        "ParameterValue": "m3.xlarge"
+        "ParameterValue": "m4.xlarge"
     },
     {
         "ParameterKey": "PrivateSubnet1CIDR",
@@ -157,7 +157,7 @@
     },
     {
         "ParameterKey": "SPInstanceType",
-        "ParameterValue": "c3.2xlarge"
+        "ParameterValue": "c4.2xlarge"
     },
     {
         "ParameterKey": "SPISOImageURI",
